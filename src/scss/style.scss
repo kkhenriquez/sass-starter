@@ -1,0 +1,40 @@
+$color: #DADCE0;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color;
+}
+
+.first {
+  color: rebeccapurple;
+  font-size: 2rem;
+  @media screen and(min-width: 960px){
+    color: purple;
+  }
+}
+
+.second {
+  color: tomato;
+  @media screen and(min-width: 960px){
+    color: purple;
+  }
+}
+
+.third {
+  color: blue;
+  @media screen and(min-width: 960px){
+    color: salmon;
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+blockquote:dir(rtl) {
+  margin-right: 10px;;
+}
